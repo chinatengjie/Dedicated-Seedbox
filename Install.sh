@@ -83,7 +83,7 @@ Decision autoremove-torrents
 ## Tweaking
 tput sgr0; clear
 normal_1; echo "Start Doing System Tweak"; warn_2
-source <(wget -qO- https://raw.githubusercontent.com/jerry048/Seedbox-Components/main/tweaking.sh)
+source <(wget -qO- https://raw.githubusercontent.com/chinatengjie/Dedicated-Seedbox/main/tweaking.sh)
 CPU_Tweaking
 NIC_Tweaking
 Network_Other_Tweaking
