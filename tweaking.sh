@@ -502,7 +502,7 @@ function Tweaked_BBR {
     elif [[ $distro_codename = bullseye ]]; then
     #echo "deb http://deb.debian.org/debian bullseye-backports main" | sudo tee -a /etc/apt/sources.list
     # echo "deb http://archive.ubuntu.com/ubuntu focal-backports main" | sudo tee -a /etc/apt/sources.list
-    apt-get -qqy update && apt -qqyt bullseye-backports upgrade
+    apt-get -qqy update && apt -qqyt focal-backports upgrade
     fi
     wget https://raw.githubusercontent.com/chinatengjie/Dedicated-Seedbox/main/BBR.sh && chmod +x BBR.sh
     ## Install tweaked BBR automatically on reboot
