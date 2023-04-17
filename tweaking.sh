@@ -501,6 +501,7 @@ function Tweaked_BBR {
     apt-get -qqy update && apt -qqyt buster-backports upgrade
     elif [[ $distro_codename = bullseye ]]; then
     #echo "deb http://deb.debian.org/debian bullseye-backports main" | sudo tee -a /etc/apt/sources.list
+    deb http://archive.ubuntu.com/ubuntu focal-backports main
     apt-get -qqy update && apt -qqyt bullseye-backports upgrade
     fi
     wget https://raw.githubusercontent.com/chinatengjie/Dedicated-Seedbox/main/BBR.sh && chmod +x BBR.sh
